@@ -1,0 +1,74 @@
+.app {
+  padding: 6px;
+  height: 100vh;
+  max-height: 100vh;
+  border: none;
+  position: relative;
+  background-color: #fff;
+}
+
+#map,
+#mapgame {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+  border: none;
+}
+
+.app .head {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.head .desc {
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.head .gteq {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.xaxal {
+  font-size: 18px !important;
+  margin-bottom: 10px;
+}
+
+.footer {
+  position: absolute;
+  z-index: 100;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 15px;
+}
+
+.load {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.am-modal-title {
+  line-height: 22px !important;
+}
+
+.am-modal-body {
+  padding: 0 !important;
+}
