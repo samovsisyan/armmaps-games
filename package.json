@@ -2,7 +2,7 @@
   "name": "rn-hay-game-webview",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://samovsisyan.github.io/armmaps-games/easyCities/",
+  "homepage": "https://samovsisyan.github.io/armmaps-games/",
   "dependencies": {
     "@amcharts/amcharts4": "^4.10.18",
     "antd-mobile": "^2.3.4",

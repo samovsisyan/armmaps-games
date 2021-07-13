@@ -78,9 +78,4 @@ export const CitiesData = [
     longitude: 46.2439226,
     title: "Մեղրի",
   },
-  {
-    latitude: 40.4050129,
-    longitude: 44.6330522,
-    title: "Չարենցավան",
-  },
 ];
