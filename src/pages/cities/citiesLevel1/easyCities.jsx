@@ -55,7 +55,7 @@ export const EasyCities = () => {
           className={
             "am-button am-button-primary am-button-large am-button-inline xaxal"
           }
-          to="/cities/play"
+          to="/easyCities/play"
         >
           Խաղալ
         </NavLink>
