@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/armmaps-games/static/css/main.08a69352.chunk.css",
-    "main.js": "/armmaps-games/static/js/main.69614c02.chunk.js",
-    "main.js.map": "/armmaps-games/static/js/main.69614c02.chunk.js.map",
+    "main.js": "/armmaps-games/static/js/main.3bc81e8a.chunk.js",
+    "main.js.map": "/armmaps-games/static/js/main.3bc81e8a.chunk.js.map",
     "runtime-main.js": "/armmaps-games/static/js/runtime-main.3db8f86e.js",
     "runtime-main.js.map": "/armmaps-games/static/js/runtime-main.3db8f86e.js.map",
     "xlsx.js": "/armmaps-games/static/js/xlsx.9ac29c8a.chunk.js",
     "xlsx.js.map": "/armmaps-games/static/js/xlsx.9ac29c8a.chunk.js.map",
     "static/css/3.f31af01a.chunk.css": "/armmaps-games/static/css/3.f31af01a.chunk.css",
-    "static/js/3.a67084cc.chunk.js": "/armmaps-games/static/js/3.a67084cc.chunk.js",
-    "static/js/3.a67084cc.chunk.js.map": "/armmaps-games/static/js/3.a67084cc.chunk.js.map",
+    "static/js/3.111d73e2.chunk.js": "/armmaps-games/static/js/3.111d73e2.chunk.js",
+    "static/js/3.111d73e2.chunk.js.map": "/armmaps-games/static/js/3.111d73e2.chunk.js.map",
     "static/js/4.8a3b131f.chunk.js": "/armmaps-games/static/js/4.8a3b131f.chunk.js",
     "static/js/4.8a3b131f.chunk.js.map": "/armmaps-games/static/js/4.8a3b131f.chunk.js.map",
     "static/js/5.62300698.chunk.js": "/armmaps-games/static/js/5.62300698.chunk.js",
@@ -19,15 +19,15 @@
     "index.html": "/armmaps-games/index.html",
     "static/css/3.f31af01a.chunk.css.map": "/armmaps-games/static/css/3.f31af01a.chunk.css.map",
     "static/css/main.08a69352.chunk.css.map": "/armmaps-games/static/css/main.08a69352.chunk.css.map",
-    "static/js/3.a67084cc.chunk.js.LICENSE.txt": "/armmaps-games/static/js/3.a67084cc.chunk.js.LICENSE.txt",
+    "static/js/3.111d73e2.chunk.js.LICENSE.txt": "/armmaps-games/static/js/3.111d73e2.chunk.js.LICENSE.txt",
     "static/js/5.62300698.chunk.js.LICENSE.txt": "/armmaps-games/static/js/5.62300698.chunk.js.LICENSE.txt",
     "static/js/6.d18682a7.chunk.js.LICENSE.txt": "/armmaps-games/static/js/6.d18682a7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3db8f86e.js",
     "static/css/3.f31af01a.chunk.css",
-    "static/js/3.a67084cc.chunk.js",
+    "static/js/3.111d73e2.chunk.js",
     "static/css/main.08a69352.chunk.css",
-    "static/js/main.69614c02.chunk.js"
+    "static/js/main.3bc81e8a.chunk.js"
   ]
 }
