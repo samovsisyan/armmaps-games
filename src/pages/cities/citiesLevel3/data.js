@@ -25,6 +25,11 @@ export const CitiesData = [
     title: "Ապարան",
   },
   {
+    latitude:40.308832098,
+    longitude:44.589497642,
+    title: "Բյուրեղավան",
+  },
+  {
     latitude:40.32053,
     longitude: 44.48139,
     title: "Եղվարդ",

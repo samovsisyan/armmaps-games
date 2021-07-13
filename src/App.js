@@ -9,10 +9,13 @@ import { MainAppHOC } from "./mainAppHoc";
 import { EasyCities } from "./pages/cities/citiesLevel1/easyCities";
 import { MediumCities } from "./pages/cities/citiesLevel2/mediumCities";
 import { HardCities } from "./pages/cities/citiesLevel3/hardCities";
+import {LegendsCities} from "./pages/cities/citiesLevel4/legendsCities";
 
 import { EasyCitiesPlay } from "./pages/cities/citiesLevel1/easyCities-play";
 import { MediumCitiesPlay } from "./pages/cities/citiesLevel2/mediumCities-play";
 import { HardCitiesPlay } from "./pages/cities/citiesLevel3/hardCities-play";
+import {LegendsCitiesPlay} from "./pages/cities/citiesLevel4/legendsCities-play";
+
 
 import { PlacesPage } from "./pages/places/places";
 import { PlacesGamePage } from "./pages/places/places-play";
@@ -27,10 +30,12 @@ function App() {
         <Route exact path="/easyCities" render={() => <EasyCities />} />
         <Route exact path="/mediumCities" render={() => <MediumCities />} />
         <Route exact path="/hardCities" render={() => <HardCities />} />
+        <Route exact path="/legendsCities" render={() => <LegendsCities />} />
 
         <Route exact path="/easyCities/play" render={() => <EasyCitiesPlay />} />
         <Route exact path="/mediumCities/play" render={() => <MediumCitiesPlay />} />
         <Route exact path="/hardCities/play" render={() => <HardCitiesPlay/>} />
+        <Route exact path="/legendsCities/play" render={() => <LegendsCitiesPlay/>} />
 
         <Route exact path="/places" render={() => <PlacesPage />} />
         <Route exact path="/places/play" render={() => <PlacesGamePage />} />

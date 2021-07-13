@@ -45,8 +45,6 @@ export const CitiesData = [
     longitude: 45.1195619,
     title: "Գավառ",
   },
-
-
   {
     latitude: 40.539603,
     longitude: 44.6951277,

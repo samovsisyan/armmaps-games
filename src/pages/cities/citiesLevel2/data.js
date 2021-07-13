@@ -14,8 +14,6 @@ export const CitiesData = [
     longitude: 43.86862,
     title: "Մարալիկ",
   },
-
-
   {
     latitude: 40.83221,
     longitude: 44.26731,
@@ -77,5 +75,10 @@ export const CitiesData = [
     latitude: 38.9028606,
     longitude: 46.2439226,
     title: "Մեղրի",
+  },
+  {
+    latitude: 40.4050129,
+    longitude: 44.6330522,
+    title: "Չարենցավան",
   },
 ];
