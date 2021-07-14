@@ -1,12 +1,12 @@
 import React from "react";
 import * as AmChartsCore from "@amcharts/amcharts4/core";
 import * as AmChartsMaps from "@amcharts/amcharts4/maps";
-import { ArmeniaGeodata } from "../../map-geodata";
+import { ArmeniaGeodata } from "../../../map-geodata";
 import { Redirect } from "react-router-dom";
 import { Modal } from "antd-mobile";
 import { PlacesData } from "./data";
 
-export class PlacesGamePage extends React.Component {
+export class EasyPlacesGamePage extends React.Component {
   constructor(props) {
     super(props);
     this.state = {

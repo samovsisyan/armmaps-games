@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import * as AmChartsCore from "@amcharts/amcharts4/core";
 import * as AmChartsMaps from "@amcharts/amcharts4/maps";
-import { ArmeniaGeodata } from "../../map-geodata";
+import { ArmeniaGeodata } from "../../../map-geodata";
 import { NavLink } from "react-router-dom";
 import { PlacesData } from "./data";
 
-export const PlacesPage = () => {
+export const HardPlaces = () => {
   const [isLoading, setIsLoading] = useState(true);
   const record = localStorage.getItem("places-record");
 
@@ -55,7 +55,7 @@ export const PlacesPage = () => {
           className={
             "am-button am-button-primary am-button-large am-button-inline xaxal"
           }
-          to="/places/play"
+          to="/hardPlaces/play"
         >
           Խաղալ
         </NavLink>

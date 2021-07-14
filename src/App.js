@@ -17,8 +17,15 @@ import { HardCitiesPlay } from "./pages/cities/citiesLevel3/hardCities-play";
 import {LegendsCitiesPlay} from "./pages/cities/citiesLevel4/legendsCities-play";
 
 
-import { PlacesPage } from "./pages/places/places";
-import { PlacesGamePage } from "./pages/places/places-play";
+import { EasyPlaces } from "./pages/places/placesLevel1/easyPlaces";
+import { HardPlaces } from "./pages/places/placesLevel2/hardPlaces";
+
+
+
+import { EasyPlacesGamePage } from "./pages/places/placesLevel1/easyPlaces-play";
+import { HardPlacesGamePage } from "./pages/places/placesLevel2/hardPlaces-play";
+
+
 
 function App() {
   return (
@@ -37,8 +44,13 @@ function App() {
         <Route exact path="/hardCities/play" render={() => <HardCitiesPlay/>} />
         <Route exact path="/legendsCities/play" render={() => <LegendsCitiesPlay/>} />
 
-        <Route exact path="/places" render={() => <PlacesPage />} />
-        <Route exact path="/places/play" render={() => <PlacesGamePage />} />
+        <Route exact path="/easyPlaces" render={() => <EasyPlaces />} />
+        <Route exact path="/hardPlaces" render={() => <HardPlaces />} />
+
+        <Route exact path="/easyPlaces/play" render={() => <EasyPlacesGamePage />} />
+        <Route exact path="/hardPlaces/play" render={() => <HardPlacesGamePage />} />
+
+
         <Route path="/" render={() => <Redirect to="/regions" />} />
       </Switch>
     </div>
