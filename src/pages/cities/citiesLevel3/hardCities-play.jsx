@@ -142,7 +142,7 @@ chart.minZoomLevel = 0.9;
   render() {
     return (
       <>
-        {this.state.redirect && <Redirect to={"/cities"} />}
+        {this.state.redirect && <Redirect to={"/hardCities"} />}
         <div className="head" style={{ padding: 10 }}>
           <p style={{ fontSize: 16, fontWeight: "bold" }}>
             {this.state.time} վայրկյան

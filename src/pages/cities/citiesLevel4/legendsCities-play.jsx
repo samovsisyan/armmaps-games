@@ -142,7 +142,7 @@ chart.minZoomLevel = 0.9;
   render() {
     return (
       <>
-        {this.state.redirect && <Redirect to={"/cities"} />}
+        {this.state.redirect && <Redirect to={"/legendsCities"} />}
         <div className="head" style={{ padding: 10 }}>
           <p style={{ fontSize: 16, fontWeight: "bold" }}>
             {this.state.time} վայրկյան
@@ -186,7 +186,7 @@ chart.minZoomLevel = 0.9;
           afterClose={() => this.setState({ redirect: true })}
         />
         {this.state.isLoading && <div className="load">Loading...</div>}
-        <div id="mapgame"></div>
+        <div id="mapgame"> </div>
       </>
     );
   }

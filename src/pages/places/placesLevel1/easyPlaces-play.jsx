@@ -13,8 +13,8 @@ export class EasyPlacesGamePage extends React.Component {
       isLoading: true,
       record: localStorage.getItem("places-record"),
       time: 0,
-      cities: PlacesData.map((v) => v.title),
-      findedCities: [],
+      cities: PlacesData.map(v => v.title),
+        foundCities: [],
       findCity: "",
       redirect: false,
       timer: null,
@@ -81,10 +81,10 @@ chart.minZoomLevel = 0.9;
   }
 
   getRandomCity() {
-    return new Promise((res, rej) => {
+    return new Promise((res) => {
       const randomCity =
         this.state.cities[Math.floor(Math.random() * this.state.cities.length)];
-      if (this.state.findedCities.includes(randomCity)) {
+      if (this.state.foundCities.includes(randomCity)) {
         res(this.getRandomCity());
       }
       res(randomCity);
@@ -98,9 +98,9 @@ chart.minZoomLevel = 0.9;
     if (hitCity === this.state.findCity) {
       circle.fill = AmChartsCore.color("#367B25");
       this.setState({
-        findedCities: [...this.state.findedCities, this.state.findCity],
+          foundCities: [...this.state.foundCities, this.state.findCity],
       });
-      if (this.state.findedCities.length === this.state.cities.length) {
+      if (this.state.foundCities.length === this.state.cities.length) {
         clearInterval(this.state.timer);
         const { record } = this.state;
         if (!record || time < record) {
@@ -113,7 +113,7 @@ chart.minZoomLevel = 0.9;
         this.getRandomCity().then((c) => this.setState({ findCity: c }));
       }
     } else {
-      if (this.state.findedCities.includes(hitCity)) {
+      if (this.state.foundCities.includes(hitCity)) {
         circle.fill = AmChartsCore.color("red");
         setTimeout(() => {
           circle.fill = AmChartsCore.color("#367B25");
@@ -142,7 +142,7 @@ chart.minZoomLevel = 0.9;
   render() {
     return (
       <>
-        {this.state.redirect && <Redirect to={"/places"} />}
+        {this.state.redirect && <Redirect to={"/easyPlaces"} />}
         <div className="head" style={{ padding: 10 }}>
           <p style={{ fontSize: 16, fontWeight: "bold" }}>
             {this.state.time} վայրկյան
@@ -186,7 +186,7 @@ chart.minZoomLevel = 0.9;
           afterClose={() => this.setState({ redirect: true })}
         />
         {this.state.isLoading && <div className="load">Loading...</div>}
-        <div id="mapgame"></div>
+        <div id="mapgame"/>
       </>
     );
   }

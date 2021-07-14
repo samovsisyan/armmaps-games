@@ -55,7 +55,7 @@ export const RegionsPage = () => {
         </p>
       </div>
       {isLoading && <div className="load">Loading...</div>}
-      <div id="map"></div>
+      <div id="map"/>
     </>
   );
 };

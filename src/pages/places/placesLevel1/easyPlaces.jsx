@@ -17,8 +17,6 @@ export const EasyPlaces = () => {
     const polygonSeries = chart.series.push(
       new AmChartsMaps.MapPolygonSeries()
     );
-    // chart.chartContainer.resizable = false;
-    // chart.panBehavior = "none";
     chart.maxZoomLevel = 2;
     chart.minZoomLevel = 0.9;
     chart.seriesContainer.events.disableType("doublehit");
@@ -55,8 +53,7 @@ export const EasyPlaces = () => {
           className={
             "am-button am-button-primary am-button-large am-button-inline xaxal"
           }
-          to="easyPlaces/play"
-        >
+          to="easyPlaces/play">
           Խաղալ
         </NavLink>
         <p style={{ fontSize: 16, fontWeight: "bold" }}>
@@ -64,7 +61,7 @@ export const EasyPlaces = () => {
         </p>
       </div>
       {isLoading && <div className="load">Loading...</div>}
-      <div id="map"></div>
+      <div id="map"/>
     </>
   );
 };

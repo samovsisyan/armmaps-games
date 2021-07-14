@@ -6,7 +6,7 @@ import { Redirect } from "react-router-dom";
 import { Modal } from "antd-mobile";
 import { CitiesData } from "./data";
 
-export class EasyCitiesPlay extends React.Component {
+export class  EasyCitiesPlay extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -91,6 +91,13 @@ chart.minZoomLevel = 0.9;
     });
   }
 
+    // endTheGame =()=>{
+    //     alert("Yooooo")
+    //     this.setState({ redirect: true })
+    //     // this.props.history.push('/easyCities')
+    //
+    // }
+
   cityHitEvent(city) {
     const hitCity = city.dataItem.dataContext.title;
     const { time } = this.state;
@@ -142,7 +149,7 @@ chart.minZoomLevel = 0.9;
   render() {
     return (
       <>
-        {this.state.redirect && <Redirect to={"/cities"} />}
+        {this.state.redirect && <Redirect to={"/easyCities"} />}
         <div className="head" style={{ padding: 10 }}>
           <p style={{ fontSize: 16, fontWeight: "bold" }}>
             {this.state.time} վայրկյան
@@ -186,7 +193,7 @@ chart.minZoomLevel = 0.9;
           afterClose={() => this.setState({ redirect: true })}
         />
         {this.state.isLoading && <div className="load">Loading...</div>}
-        <div id="mapgame"></div>
+        <div id="mapgame"> </div>
       </>
     );
   }
