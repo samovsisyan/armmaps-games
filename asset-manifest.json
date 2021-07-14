@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/armmaps-games/static/css/main.08a69352.chunk.css",
-    "main.js": "/armmaps-games/static/js/main.b29d29c4.chunk.js",
-    "main.js.map": "/armmaps-games/static/js/main.b29d29c4.chunk.js.map",
+    "main.js": "/armmaps-games/static/js/main.caf7bc2c.chunk.js",
+    "main.js.map": "/armmaps-games/static/js/main.caf7bc2c.chunk.js.map",
     "runtime-main.js": "/armmaps-games/static/js/runtime-main.3db8f86e.js",
     "runtime-main.js.map": "/armmaps-games/static/js/runtime-main.3db8f86e.js.map",
     "xlsx.js": "/armmaps-games/static/js/xlsx.9ac29c8a.chunk.js",
@@ -28,6 +28,6 @@
     "static/css/3.f31af01a.chunk.css",
     "static/js/3.aa2efc63.chunk.js",
     "static/css/main.08a69352.chunk.css",
-    "static/js/main.b29d29c4.chunk.js"
+    "static/js/main.caf7bc2c.chunk.js"
   ]
 }
