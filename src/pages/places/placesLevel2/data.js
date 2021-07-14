@@ -54,14 +54,4 @@ export const PlacesData = [
     longitude: 44.45,
     title: "Ստեփանավան դենդրոպարկ",
   },
-  // {
-  //   latitude: 0,
-  //   longitude: 0,
-  //   title: "",
-  // },
-  // {
-  //   latitude: 0,
-  //   longitude: 0,
-  //   title: "",
-  // },
 ];

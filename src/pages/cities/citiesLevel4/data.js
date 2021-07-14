@@ -75,9 +75,6 @@ export const CitiesData = [
     longitude: 46.155999376,
     title: "Քաջարան",
   },
-
-//
-
   {
     latitude: 40.875163166,
     longitude:45.38833178,
